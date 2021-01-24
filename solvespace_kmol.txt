@@ -1,0 +1,19 @@
+install cmake
+
+    pacman -S mingw-w64-x86_64-cmake
+
+rename Y:\msys64\usr\bin\sh.exe
+
+build solvespace.exe
+
+use mingw64.exe
+
+	cd /y/tmp/cad_ex
+
+	cd solvespace
+	mkdir build
+	cd build
+	cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
+	make
+
+need libwinpthread-1.dll to execute solvespace.exe

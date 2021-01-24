@@ -1,0 +1,1702 @@
+# Ukrainian translations for SolveSpace package.
+# Copyright (C) 2017 the SolveSpace authors
+# This file is distributed under the same license as the SolveSpace package.
+# AppSoft4 <appsoft@ua.fm>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: SolveSpace 3.0\n"
+"Report-Msgid-Bugs-To: whitequark@whitequark.org\n"
+"POT-Creation-Date: 2020-09-21 09:28+0200\n"
+"PO-Revision-Date: 2017-01-05 10:30+0000\n"
+"Last-Translator: appsoft@ua.fm\n"
+"Language-Team: OpenOrienteeringUkraine\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: clipboard.cpp:274
+msgid ""
+"Cut, paste, and copy work only in a workplane.\n"
+"\n"
+"Activate one with Sketch -> In Workplane."
+msgstr ""
+
+#: clipboard.cpp:291
+msgid "Clipboard is empty; nothing to paste."
+msgstr ""
+
+#: clipboard.cpp:338
+msgid "Number of copies to paste must be at least one."
+msgstr ""
+
+#: clipboard.cpp:354 textscreens.cpp:783
+msgid "Scale cannot be zero."
+msgstr ""
+
+#: clipboard.cpp:396
+msgid "Select one point to define origin of rotation."
+msgstr ""
+
+#: clipboard.cpp:408
+msgid "Select two points to define translation vector."
+msgstr ""
+
+#: clipboard.cpp:418
+msgid ""
+"Transformation is identity. So all copies will be exactly on top of each "
+"other."
+msgstr ""
+
+#: clipboard.cpp:422
+msgid "Too many items to paste; split this into smaller pastes."
+msgstr ""
+
+#: clipboard.cpp:427
+msgid "No workplane active."
+msgstr ""
+
+#: confscreen.cpp:410
+msgid "Bad format: specify coordinates as x, y, z"
+msgstr ""
+
+#: confscreen.cpp:420 style.cpp:659 textscreens.cpp:805
+msgid "Bad format: specify color as r, g, b"
+msgstr ""
+
+#: confscreen.cpp:446
+msgid ""
+"The perspective factor will have no effect until you enable View -> Use "
+"Perspective Projection."
+msgstr ""
+
+#: confscreen.cpp:459 confscreen.cpp:469
+#, c-format
+msgid "Specify between 0 and %d digits after the decimal."
+msgstr ""
+
+#: confscreen.cpp:481
+msgid "Export scale must not be zero!"
+msgstr ""
+
+#: confscreen.cpp:493
+msgid "Cutter radius offset must not be negative!"
+msgstr ""
+
+#: confscreen.cpp:547
+msgid "Bad value: autosave interval should be positive"
+msgstr ""
+
+#: confscreen.cpp:550
+msgid "Bad format: specify interval in integral minutes"
+msgstr ""
+
+#: constraint.cpp:12
+msgctxt "constr-name"
+msgid "pts-coincident"
+msgstr ""
+
+#: constraint.cpp:13
+msgctxt "constr-name"
+msgid "pt-pt-distance"
+msgstr ""
+
+#: constraint.cpp:14
+msgctxt "constr-name"
+msgid "pt-line-distance"
+msgstr ""
+
+#: constraint.cpp:15
+msgctxt "constr-name"
+msgid "pt-plane-distance"
+msgstr ""
+
+#: constraint.cpp:16
+msgctxt "constr-name"
+msgid "pt-face-distance"
+msgstr ""
+
+#: constraint.cpp:17
+msgctxt "constr-name"
+msgid "proj-pt-pt-distance"
+msgstr ""
+
+#: constraint.cpp:18
+msgctxt "constr-name"
+msgid "pt-in-plane"
+msgstr ""
+
+#: constraint.cpp:19
+msgctxt "constr-name"
+msgid "pt-on-line"
+msgstr ""
+
+#: constraint.cpp:20
+msgctxt "constr-name"
+msgid "pt-on-face"
+msgstr ""
+
+#: constraint.cpp:21
+msgctxt "constr-name"
+msgid "eq-length"
+msgstr ""
+
+#: constraint.cpp:22
+msgctxt "constr-name"
+msgid "eq-length-and-pt-ln-dist"
+msgstr ""
+
+#: constraint.cpp:23
+msgctxt "constr-name"
+msgid "eq-pt-line-distances"
+msgstr ""
+
+#: constraint.cpp:24
+msgctxt "constr-name"
+msgid "length-ratio"
+msgstr ""
+
+#: constraint.cpp:25
+msgctxt "constr-name"
+msgid "length-difference"
+msgstr ""
+
+#: constraint.cpp:26
+msgctxt "constr-name"
+msgid "symmetric"
+msgstr ""
+
+#: constraint.cpp:27
+msgctxt "constr-name"
+msgid "symmetric-h"
+msgstr ""
+
+#: constraint.cpp:28
+msgctxt "constr-name"
+msgid "symmetric-v"
+msgstr ""
+
+#: constraint.cpp:29
+msgctxt "constr-name"
+msgid "symmetric-line"
+msgstr ""
+
+#: constraint.cpp:30
+msgctxt "constr-name"
+msgid "at-midpoint"
+msgstr ""
+
+#: constraint.cpp:31
+msgctxt "constr-name"
+msgid "horizontal"
+msgstr ""
+
+#: constraint.cpp:32
+msgctxt "constr-name"
+msgid "vertical"
+msgstr ""
+
+#: constraint.cpp:33
+msgctxt "constr-name"
+msgid "diameter"
+msgstr ""
+
+#: constraint.cpp:34
+msgctxt "constr-name"
+msgid "pt-on-circle"
+msgstr ""
+
+#: constraint.cpp:35
+msgctxt "constr-name"
+msgid "same-orientation"
+msgstr ""
+
+#: constraint.cpp:36
+msgctxt "constr-name"
+msgid "angle"
+msgstr ""
+
+#: constraint.cpp:37
+msgctxt "constr-name"
+msgid "parallel"
+msgstr ""
+
+#: constraint.cpp:38
+msgctxt "constr-name"
+msgid "arc-line-tangent"
+msgstr ""
+
+#: constraint.cpp:39
+msgctxt "constr-name"
+msgid "cubic-line-tangent"
+msgstr ""
+
+#: constraint.cpp:40
+msgctxt "constr-name"
+msgid "curve-curve-tangent"
+msgstr ""
+
+#: constraint.cpp:41
+msgctxt "constr-name"
+msgid "perpendicular"
+msgstr ""
+
+#: constraint.cpp:42
+msgctxt "constr-name"
+msgid "eq-radius"
+msgstr ""
+
+#: constraint.cpp:43
+msgctxt "constr-name"
+msgid "eq-angle"
+msgstr ""
+
+#: constraint.cpp:44
+msgctxt "constr-name"
+msgid "eq-line-len-arc-len"
+msgstr ""
+
+#: constraint.cpp:45
+msgctxt "constr-name"
+msgid "lock-where-dragged"
+msgstr ""
+
+#: constraint.cpp:46
+msgctxt "constr-name"
+msgid "comment"
+msgstr ""
+
+#: constraint.cpp:171
+msgid ""
+"Bad selection for distance / diameter constraint. This constraint can apply "
+"to:\n"
+"\n"
+"    * two points (distance between points)\n"
+"    * a line segment (length)\n"
+"    * two points and a line segment or normal (projected distance)\n"
+"    * a workplane and a point (minimum distance)\n"
+"    * a line segment and a point (minimum distance)\n"
+"    * a plane face and a point (minimum distance)\n"
+"    * a circle or an arc (diameter)\n"
+msgstr ""
+
+#: constraint.cpp:224
+msgid ""
+"Bad selection for on point / curve / plane constraint. This constraint can "
+"apply to:\n"
+"\n"
+"    * two points (points coincident)\n"
+"    * a point and a workplane (point in plane)\n"
+"    * a point and a line segment (point on line)\n"
+"    * a point and a circle or arc (point on curve)\n"
+"    * a point and a plane face (point on face)\n"
+msgstr ""
+
+#: constraint.cpp:286
+msgid ""
+"Bad selection for equal length / radius constraint. This constraint can "
+"apply to:\n"
+"\n"
+"    * two line segments (equal length)\n"
+"    * two line segments and two points (equal point-line distances)\n"
+"    * a line segment and two points (equal point-line distances)\n"
+"    * a line segment, and a point and line segment (point-line distance "
+"equals length)\n"
+"    * four line segments or normals (equal angle between A,B and C,D)\n"
+"    * three line segments or normals (equal angle between A,B and B,C)\n"
+"    * two circles or arcs (equal radius)\n"
+"    * a line segment and an arc (line segment length equals arc length)\n"
+msgstr ""
+
+#: constraint.cpp:325
+msgid ""
+"Bad selection for length ratio constraint. This constraint can apply to:\n"
+"\n"
+"    * two line segments\n"
+msgstr ""
+
+#: constraint.cpp:342
+msgid ""
+"Bad selection for length difference constraint. This constraint can apply "
+"to:\n"
+"\n"
+"    * two line segments\n"
+msgstr ""
+
+#: constraint.cpp:368
+msgid ""
+"Bad selection for at midpoint constraint. This constraint can apply to:\n"
+"\n"
+"    * a line segment and a point (point at midpoint)\n"
+"    * a line segment and a workplane (line's midpoint on plane)\n"
+msgstr ""
+
+#: constraint.cpp:426
+msgid ""
+"Bad selection for symmetric constraint. This constraint can apply to:\n"
+"\n"
+"    * two points or a line segment (symmetric about workplane's coordinate "
+"axis)\n"
+"    * line segment, and two points or a line segment (symmetric about line "
+"segment)\n"
+"    * workplane, and two points or a line segment (symmetric about "
+"workplane)\n"
+msgstr ""
+
+#: constraint.cpp:440
+msgid ""
+"A workplane must be active when constraining symmetric without an explicit "
+"symmetry plane."
+msgstr ""
+
+#: constraint.cpp:470
+msgid ""
+"Activate a workplane (with Sketch -> In Workplane) before applying a "
+"horizontal or vertical constraint."
+msgstr ""
+
+#: constraint.cpp:483
+msgid ""
+"Bad selection for horizontal / vertical constraint. This constraint can "
+"apply to:\n"
+"\n"
+"    * two points\n"
+"    * a line segment\n"
+msgstr ""
+
+#: constraint.cpp:504
+msgid ""
+"Bad selection for same orientation constraint. This constraint can apply "
+"to:\n"
+"\n"
+"    * two normals\n"
+msgstr ""
+
+#: constraint.cpp:554
+msgid "Must select an angle constraint."
+msgstr ""
+
+#: constraint.cpp:567
+msgid "Must select a constraint with associated label."
+msgstr ""
+
+#: constraint.cpp:578
+msgid ""
+"Bad selection for angle constraint. This constraint can apply to:\n"
+"\n"
+"    * two line segments\n"
+"    * a line segment and a normal\n"
+"    * two normals\n"
+msgstr ""
+
+#: constraint.cpp:635
+msgid ""
+"The tangent arc and line segment must share an endpoint. Constrain them with "
+"Constrain -> On Point before constraining tangent."
+msgstr ""
+
+#: constraint.cpp:659
+msgid ""
+"The tangent cubic and line segment must share an endpoint. Constrain them "
+"with Constrain -> On Point before constraining tangent."
+msgstr ""
+
+#: constraint.cpp:669
+msgid "Curve-curve tangency must apply in workplane."
+msgstr ""
+
+#: constraint.cpp:687
+msgid ""
+"The curves must share an endpoint. Constrain them with Constrain -> On Point "
+"before constraining tangent."
+msgstr ""
+
+#: constraint.cpp:696
+msgid ""
+"Bad selection for parallel / tangent constraint. This constraint can apply "
+"to:\n"
+"\n"
+"    * two line segments (parallel)\n"
+"    * a line segment and a normal (parallel)\n"
+"    * two normals (parallel)\n"
+"    * two line segments, arcs, or beziers, that share an endpoint (tangent)\n"
+msgstr ""
+
+#: constraint.cpp:714
+msgid ""
+"Bad selection for perpendicular constraint. This constraint can apply to:\n"
+"\n"
+"    * two line segments\n"
+"    * a line segment and a normal\n"
+"    * two normals\n"
+msgstr ""
+
+#: constraint.cpp:729
+msgid ""
+"Bad selection for lock point where dragged constraint. This constraint can "
+"apply to:\n"
+"\n"
+"    * a point\n"
+msgstr ""
+
+#: constraint.cpp:740
+msgid "click center of comment text"
+msgstr ""
+
+#: export.cpp:19
+msgid ""
+"No solid model present; draw one with extrudes and revolves, or use Export "
+"2d View to export bare lines and curves."
+msgstr ""
+
+#: export.cpp:61
+msgid ""
+"Bad selection for export section. Please select:\n"
+"\n"
+"    * nothing, with an active workplane (workplane is section plane)\n"
+"    * a face (section plane through face)\n"
+"    * a point and two line segments (plane through point and parallel to "
+"lines)\n"
+msgstr ""
+
+#: export.cpp:822
+msgid "Active group mesh is empty; nothing to export."
+msgstr ""
+
+#: exportvector.cpp:337
+msgid "freehand lines were replaced with continuous lines"
+msgstr ""
+
+#: exportvector.cpp:339
+msgid "zigzag lines were replaced with continuous lines"
+msgstr ""
+
+#: exportvector.cpp:593
+msgid ""
+"Some aspects of the drawing have no DXF equivalent and were not exported:\n"
+msgstr ""
+
+#: exportvector.cpp:839
+msgid ""
+"PDF page size exceeds 200 by 200 inches; many viewers may reject this file."
+msgstr ""
+
+#: file.cpp:44 group.cpp:91
+msgctxt "group-name"
+msgid "sketch-in-plane"
+msgstr ""
+
+#: file.cpp:62
+msgctxt "group-name"
+msgid "#references"
+msgstr ""
+
+#: file.cpp:549
+msgid ""
+"Unrecognized data in file. This file may be corrupt, or from a newer version "
+"of the program."
+msgstr ""
+
+#: file.cpp:849
+msgctxt "title"
+msgid "Missing File"
+msgstr ""
+
+#: file.cpp:850
+#, c-format
+msgctxt "dialog"
+msgid "The linked file “%s” is not present."
+msgstr ""
+
+#: file.cpp:852
+msgctxt "dialog"
+msgid ""
+"Do you want to locate it manually?\n"
+"\n"
+"If you decline, any geometry that depends on the missing file will be "
+"permanently removed."
+msgstr ""
+
+#: file.cpp:855
+msgctxt "button"
+msgid "&Yes"
+msgstr ""
+
+#: file.cpp:857
+msgctxt "button"
+msgid "&No"
+msgstr ""
+
+#: file.cpp:859
+msgctxt "button"
+msgid "&Cancel"
+msgstr ""
+
+#: graphicswin.cpp:41
+msgid "&File"
+msgstr "&Файл"
+
+#: graphicswin.cpp:42
+msgid "&New"
+msgstr "&Новий"
+
+#: graphicswin.cpp:43
+msgid "&Open..."
+msgstr "&Відкрити..."
+
+#: graphicswin.cpp:44
+msgid "Open &Recent"
+msgstr "Відкрити &Недавні"
+
+#: graphicswin.cpp:45
+msgid "&Save"
+msgstr "&Зберегти"
+
+#: graphicswin.cpp:46
+msgid "Save &As..."
+msgstr "Зберегти &Як..."
+
+#: graphicswin.cpp:48
+msgid "Export &Image..."
+msgstr "Експортувати &Зображення..."
+
+#: graphicswin.cpp:49
+msgid "Export 2d &View..."
+msgstr "Експортувати 2d &Вигляд..."
+
+#: graphicswin.cpp:50
+msgid "Export 2d &Section..."
+msgstr "Експортувати 2d &Секцію..."
+
+#: graphicswin.cpp:51
+msgid "Export 3d &Wireframe..."
+msgstr "Експортувати 3d &Скелет..."
+
+#: graphicswin.cpp:52
+msgid "Export Triangle &Mesh..."
+msgstr "Експортувати Тригранний &Каркас..."
+
+#: graphicswin.cpp:53
+msgid "Export &Surfaces..."
+msgstr "Експортувати &Поверхні..."
+
+#: graphicswin.cpp:54
+msgid "Im&port..."
+msgstr "Ім&портувати..."
+
+#: graphicswin.cpp:57
+msgid "E&xit"
+msgstr "В&ихід"
+
+#: graphicswin.cpp:60
+msgid "&Edit"
+msgstr "&Редагувати"
+
+#: graphicswin.cpp:61
+msgid "&Undo"
+msgstr "&Відмінити"
+
+#: graphicswin.cpp:62
+msgid "&Redo"
+msgstr "&Повторити"
+
+#: graphicswin.cpp:63
+msgid "Re&generate All"
+msgstr "Ре&генерувати Все"
+
+#: graphicswin.cpp:65
+msgid "Snap Selection to &Grid"
+msgstr "Прикріпити Виділене до &Сітки"
+
+#: graphicswin.cpp:66
+msgid "Rotate Imported &90°"
+msgstr "Обернути Імпортоване на &90°"
+
+#: graphicswin.cpp:68
+msgid "Cu&t"
+msgstr "Ви&різати"
+
+#: graphicswin.cpp:69
+msgid "&Copy"
+msgstr "&Копіювати"
+
+#: graphicswin.cpp:70
+msgid "&Paste"
+msgstr "&Вставити"
+
+#: graphicswin.cpp:71
+msgid "Paste &Transformed..."
+msgstr "Вставити &Трансфмованим..."
+
+#: graphicswin.cpp:72
+msgid "&Delete"
+msgstr "&Delete"
+
+#: graphicswin.cpp:74
+msgid "Select &Edge Chain"
+msgstr "Виділити Ланцуг &Ребер"
+
+#: graphicswin.cpp:75
+msgid "Select &All"
+msgstr "Виділити &Усе"
+
+#: graphicswin.cpp:76
+msgid "&Unselect All"
+msgstr "&Зняти Виділення з Усього"
+
+#: graphicswin.cpp:78
+msgid "&Line Styles..."
+msgstr ""
+
+#: graphicswin.cpp:79
+msgid "&View Projection..."
+msgstr ""
+
+#: graphicswin.cpp:81
+msgid "Con&figuration..."
+msgstr ""
+
+#: graphicswin.cpp:84
+msgid "&View"
+msgstr "&View"
+
+#: graphicswin.cpp:85
+msgid "Zoom &In"
+msgstr "На&близити"
+
+#: graphicswin.cpp:86
+msgid "Zoom &Out"
+msgstr "Від&далити"
+
+#: graphicswin.cpp:87
+msgid "Zoom To &Fit"
+msgstr "Умістити на &Екрані"
+
+#: graphicswin.cpp:89
+msgid "Align View to &Workplane"
+msgstr "Вирівняти Вигляд до Робочої &Площини"
+
+#: graphicswin.cpp:90
+msgid "Nearest &Ortho View"
+msgstr "Найближчий &Ортогональний Вигляд"
+
+#: graphicswin.cpp:91
+msgid "Nearest &Isometric View"
+msgstr "Найближчий &Ізометричний Вигляд"
+
+#: graphicswin.cpp:92
+msgid "&Center View At Point"
+msgstr "&Центрувати Вигляд На Точці"
+
+#: graphicswin.cpp:94
+msgid "Show Snap &Grid"
+msgstr "Показати &Сітку Прикріплення"
+
+#: graphicswin.cpp:95
+msgid "Use &Perspective Projection"
+msgstr "Використовувати &Перспективну Проекцію"
+
+#: graphicswin.cpp:96
+msgid "Dimension &Units"
+msgstr ""
+
+#: graphicswin.cpp:97
+msgid "Dimensions in &Millimeters"
+msgstr "Розміри в &Міліметрах"
+
+#: graphicswin.cpp:98
+msgid "Dimensions in M&eters"
+msgstr ""
+
+#: graphicswin.cpp:99
+msgid "Dimensions in &Inches"
+msgstr "Розміри в &Дюймах"
+
+#: graphicswin.cpp:101
+msgid "Show &Toolbar"
+msgstr "Показати Панель &Інструментів"
+
+#: graphicswin.cpp:102
+msgid "Show Property Bro&wser"
+msgstr "Показати Вікно Власти&востей"
+
+#: graphicswin.cpp:104
+msgid "&Full Screen"
+msgstr "&Повний Екран"
+
+#: graphicswin.cpp:106
+msgid "&New Group"
+msgstr "&Нова Група"
+
+#: graphicswin.cpp:107
+msgid "Sketch In &3d"
+msgstr "Креслення В &3d"
+
+#: graphicswin.cpp:108
+msgid "Sketch In New &Workplane"
+msgstr "Креслення В Новій Робочій &Площині"
+
+#: graphicswin.cpp:110
+msgid "Step &Translating"
+msgstr "Покрокове &Переміщення"
+
+#: graphicswin.cpp:111
+msgid "Step &Rotating"
+msgstr "Покрокове &Обертання"
+
+#: graphicswin.cpp:113
+msgid "E&xtrude"
+msgstr "Ви&давити"
+
+#: graphicswin.cpp:114
+msgid "&Helix"
+msgstr ""
+
+#: graphicswin.cpp:115
+msgid "&Lathe"
+msgstr "&Виточити"
+
+#: graphicswin.cpp:116
+msgid "Re&volve"
+msgstr ""
+
+#: graphicswin.cpp:118
+msgid "Link / Assemble..."
+msgstr "Приєднати / Монтувати..."
+
+#: graphicswin.cpp:119
+msgid "Link Recent"
+msgstr "Приєднати Недавні"
+
+#: graphicswin.cpp:121
+msgid "&Sketch"
+msgstr "&Креслення"
+
+#: graphicswin.cpp:122
+msgid "In &Workplane"
+msgstr "В Робочій &Площині"
+
+#: graphicswin.cpp:123
+msgid "Anywhere In &3d"
+msgstr "Будь-де В &3d"
+
+#: graphicswin.cpp:125
+msgid "Datum &Point"
+msgstr "Опорна &Точка"
+
+#: graphicswin.cpp:126
+msgid "&Workplane"
+msgstr "Робоча &Площина"
+
+#: graphicswin.cpp:128
+msgid "Line &Segment"
+msgstr "&Відрізок Прямої"
+
+#: graphicswin.cpp:129
+msgid "C&onstruction Line Segment"
+msgstr "Контсрук&ційний Відрізок Прямої"
+
+#: graphicswin.cpp:130
+msgid "&Rectangle"
+msgstr "&Прямокутник"
+
+#: graphicswin.cpp:131
+msgid "&Circle"
+msgstr "&Коло"
+
+#: graphicswin.cpp:132
+msgid "&Arc of a Circle"
+msgstr "&Дуга Кола"
+
+#: graphicswin.cpp:133
+msgid "&Bezier Cubic Spline"
+msgstr "Кубічний Сплайн &Без'є"
+
+#: graphicswin.cpp:135
+msgid "&Text in TrueType Font"
+msgstr "&Текст з TrueType Шрифтом"
+
+#: graphicswin.cpp:136
+msgid "&Image"
+msgstr ""
+
+#: graphicswin.cpp:138
+msgid "To&ggle Construction"
+msgstr "Пере&мкнути Конструктивність"
+
+#: graphicswin.cpp:139
+msgid "Tangent &Arc at Point"
+msgstr "Дотична &Дуга на Точці"
+
+#: graphicswin.cpp:140
+msgid "Split Curves at &Intersection"
+msgstr "Розрізати Криві на &Перетині"
+
+#: graphicswin.cpp:142
+msgid "&Constrain"
+msgstr "&Обмежити"
+
+#: graphicswin.cpp:143
+msgid "&Distance / Diameter"
+msgstr "&Відстань / Діаметр"
+
+#: graphicswin.cpp:144
+msgid "Re&ference Dimension"
+msgstr "Від&носний Розмір"
+
+#: graphicswin.cpp:145
+msgid "A&ngle"
+msgstr "К&ут"
+
+#: graphicswin.cpp:146
+msgid "Reference An&gle"
+msgstr "Відносний К&ут"
+
+#: graphicswin.cpp:147
+msgid "Other S&upplementary Angle"
+msgstr "Інший Су&міжний Кут"
+
+#: graphicswin.cpp:148
+msgid "Toggle R&eference Dim"
+msgstr "Перемкнути Від&носність Розмірів"
+
+#: graphicswin.cpp:150
+msgid "&Horizontal"
+msgstr "&Горизонтально"
+
+#: graphicswin.cpp:151
+msgid "&Vertical"
+msgstr "&Вертикально"
+
+#: graphicswin.cpp:153
+msgid "&On Point / Curve / Plane"
+msgstr "&На точці / Кривій / Площині"
+
+#: graphicswin.cpp:154
+msgid "E&qual Length / Radius / Angle"
+msgstr "Рі&вні Довжина / Радіус / Кут"
+
+#: graphicswin.cpp:155
+msgid "Length Ra&tio"
+msgstr "Про&порція Довжин"
+
+#: graphicswin.cpp:156
+msgid "Length Diff&erence"
+msgstr "Рі&зниця Довжин"
+
+#: graphicswin.cpp:157
+msgid "At &Midpoint"
+msgstr "До &Середини"
+
+#: graphicswin.cpp:158
+msgid "S&ymmetric"
+msgstr "Си&метрично"
+
+#: graphicswin.cpp:159
+msgid "Para&llel / Tangent"
+msgstr "Пара&лельно / Дотична"
+
+#: graphicswin.cpp:160
+msgid "&Perpendicular"
+msgstr "&Препендикулярно"
+
+#: graphicswin.cpp:161
+msgid "Same Orient&ation"
+msgstr "Однакова Орієн&тація"
+
+#: graphicswin.cpp:162
+msgid "Lock Point Where &Dragged"
+msgstr "Фіксувати Точку Після &Переміщення"
+
+#: graphicswin.cpp:164
+msgid "Comment"
+msgstr "Коментар"
+
+#: graphicswin.cpp:166
+msgid "&Analyze"
+msgstr "&Аналізувати"
+
+#: graphicswin.cpp:167
+msgid "Measure &Volume"
+msgstr "Обрахувати &Об'єм"
+
+#: graphicswin.cpp:168
+msgid "Measure A&rea"
+msgstr "Обрахувати Пл&ощу"
+
+#: graphicswin.cpp:169
+msgid "Measure &Perimeter"
+msgstr "Обрахувати &Периметр"
+
+#: graphicswin.cpp:170
+msgid "Show &Interfering Parts"
+msgstr "Показати &Дотичні Частини"
+
+#: graphicswin.cpp:171
+msgid "Show &Naked Edges"
+msgstr "Показати &Приховані Ребра"
+
+#: graphicswin.cpp:172
+msgid "Show &Center of Mass"
+msgstr ""
+
+#: graphicswin.cpp:174
+msgid "Show &Underconstrained Points"
+msgstr ""
+
+#: graphicswin.cpp:176
+msgid "&Trace Point"
+msgstr "&Трасувати Точку"
+
+#: graphicswin.cpp:177
+msgid "&Stop Tracing..."
+msgstr "&Зупити Трасування..."
+
+#: graphicswin.cpp:178
+msgid "Step &Dimension..."
+msgstr "Прорахувати &Розмір..."
+
+#: graphicswin.cpp:180
+msgid "&Help"
+msgstr "&Довідка"
+
+#: graphicswin.cpp:181
+msgid "&Language"
+msgstr "&Мова"
+
+#: graphicswin.cpp:182
+msgid "&Website / Manual"
+msgstr "&Вебсайт / Посібник"
+
+#: graphicswin.cpp:184
+msgid "&About"
+msgstr "&Про програму"
+
+#: graphicswin.cpp:352
+msgid "(no recent files)"
+msgstr ""
+
+#: graphicswin.cpp:360
+#, c-format
+msgid "File '%s' does not exist."
+msgstr ""
+
+#: graphicswin.cpp:721
+msgid "No workplane is active, so the grid will not appear."
+msgstr ""
+
+#: graphicswin.cpp:730
+msgid ""
+"The perspective factor is set to zero, so the view will always be a parallel "
+"projection.\n"
+"\n"
+"For a perspective projection, modify the perspective factor in the "
+"configuration screen. A value around 0.3 is typical."
+msgstr ""
+
+#: graphicswin.cpp:809
+msgid ""
+"Select a point; this point will become the center of the view on screen."
+msgstr ""
+
+#: graphicswin.cpp:1103
+msgid "No additional entities share endpoints with the selected entities."
+msgstr ""
+
+#: graphicswin.cpp:1121
+msgid ""
+"To use this command, select a point or other entity from an linked part, or "
+"make a link group the active group."
+msgstr ""
+
+#: graphicswin.cpp:1144
+msgid ""
+"No workplane is active. Activate a workplane (with Sketch -> In Workplane) "
+"to define the plane for the snap grid."
+msgstr ""
+
+#: graphicswin.cpp:1151
+msgid ""
+"Can't snap these items to grid; select points, text comments, or constraints "
+"with a label. To snap a line, select its endpoints."
+msgstr ""
+
+#: graphicswin.cpp:1239
+msgid "No workplane selected. Activating default workplane for this group."
+msgstr ""
+
+#: graphicswin.cpp:1242
+msgid ""
+"No workplane is selected, and the active group does not have a default "
+"workplane. Try selecting a workplane, or activating a sketch-in-new-"
+"workplane group."
+msgstr ""
+
+#: graphicswin.cpp:1263
+msgid ""
+"Bad selection for tangent arc at point. Select a single point, or select "
+"nothing to set up arc parameters."
+msgstr ""
+
+#: graphicswin.cpp:1274
+msgid "click point on arc (draws anti-clockwise)"
+msgstr ""
+
+#: graphicswin.cpp:1275
+msgid "click to place datum point"
+msgstr ""
+
+#: graphicswin.cpp:1276
+msgid "click first point of line segment"
+msgstr ""
+
+#: graphicswin.cpp:1278
+msgid "click first point of construction line segment"
+msgstr ""
+
+#: graphicswin.cpp:1279
+msgid "click first point of cubic segment"
+msgstr ""
+
+#: graphicswin.cpp:1280
+msgid "click center of circle"
+msgstr ""
+
+#: graphicswin.cpp:1281
+msgid "click origin of workplane"
+msgstr ""
+
+#: graphicswin.cpp:1282
+msgid "click one corner of rectangle"
+msgstr ""
+
+#: graphicswin.cpp:1283
+msgid "click top left of text"
+msgstr ""
+
+#: graphicswin.cpp:1289
+msgid "click top left of image"
+msgstr ""
+
+#: graphicswin.cpp:1301
+msgid ""
+"No entities are selected. Select entities before trying to toggle their "
+"construction state."
+msgstr ""
+
+#: group.cpp:86
+msgctxt "group-name"
+msgid "sketch-in-3d"
+msgstr ""
+
+#: group.cpp:142
+msgid ""
+"Bad selection for new sketch in workplane. This group can be created with:\n"
+"\n"
+"    * a point (through the point, orthogonal to coordinate axes)\n"
+"    * a point and two line segments (through the point, parallel to the "
+"lines)\n"
+"    * a workplane (copy of the workplane)\n"
+msgstr ""
+
+#: group.cpp:154
+msgid ""
+"Activate a workplane (Sketch -> In Workplane) before extruding. The sketch "
+"will be extruded normal to the workplane."
+msgstr ""
+
+#: group.cpp:163
+msgctxt "group-name"
+msgid "extrude"
+msgstr ""
+
+#: group.cpp:168
+msgid "Lathe operation can only be applied to planar sketches."
+msgstr ""
+
+#: group.cpp:179
+msgid ""
+"Bad selection for new lathe group. This group can be created with:\n"
+"\n"
+"    * a point and a line segment or normal (revolved about an axis parallel "
+"to line / normal, through point)\n"
+"    * a line segment (revolved about line segment)\n"
+msgstr ""
+
+#: group.cpp:189
+msgctxt "group-name"
+msgid "lathe"
+msgstr ""
+
+#: group.cpp:194
+msgid "Revolve operation can only be applied to planar sketches."
+msgstr ""
+
+#: group.cpp:205
+msgid ""
+"Bad selection for new revolve group. This group can be created with:\n"
+"\n"
+"    * a point and a line segment or normal (revolved about an axis parallel "
+"to line / normal, through point)\n"
+"    * a line segment (revolved about line segment)\n"
+msgstr ""
+
+#: group.cpp:217
+msgctxt "group-name"
+msgid "revolve"
+msgstr ""
+
+#: group.cpp:222
+msgid "Helix operation can only be applied to planar sketches."
+msgstr ""
+
+#: group.cpp:233
+msgid ""
+"Bad selection for new helix group. This group can be created with:\n"
+"\n"
+"    * a point and a line segment or normal (revolved about an axis parallel "
+"to line / normal, through point)\n"
+"    * a line segment (revolved about line segment)\n"
+msgstr ""
+
+#: group.cpp:245
+msgctxt "group-name"
+msgid "helix"
+msgstr ""
+
+#: group.cpp:258
+msgid ""
+"Bad selection for new rotation. This group can be created with:\n"
+"\n"
+"    * a point, while locked in workplane (rotate in plane, about that "
+"point)\n"
+"    * a point and a line or a normal (rotate about an axis through the "
+"point, and parallel to line / normal)\n"
+msgstr ""
+
+#: group.cpp:271
+msgctxt "group-name"
+msgid "rotate"
+msgstr ""
+
+#: group.cpp:282
+msgctxt "group-name"
+msgid "translate"
+msgstr ""
+
+#: group.cpp:400
+msgid "(unnamed)"
+msgstr ""
+
+#: groupmesh.cpp:689
+msgid "not closed contour, or not all same style!"
+msgstr ""
+
+#: groupmesh.cpp:702
+msgid "points not all coplanar!"
+msgstr ""
+
+#: groupmesh.cpp:704
+msgid "contour is self-intersecting!"
+msgstr ""
+
+#: groupmesh.cpp:706
+msgid "zero-length edge!"
+msgstr ""
+
+#: modify.cpp:254
+msgid "Must be sketching in workplane to create tangent arc."
+msgstr ""
+
+#: modify.cpp:301
+msgid ""
+"To create a tangent arc, select a point where two non-construction lines or "
+"circles in this group and workplane join."
+msgstr ""
+
+#: modify.cpp:388
+msgid ""
+"Couldn't round this corner. Try a smaller radius, or try creating the "
+"desired geometry by hand with tangency constraints."
+msgstr ""
+
+#: modify.cpp:597
+msgid "Couldn't split this entity; lines, circles, or cubics only."
+msgstr ""
+
+#: modify.cpp:624
+msgid "Must be sketching in workplane to split."
+msgstr ""
+
+#: modify.cpp:631
+msgid ""
+"Select two entities that intersect each other (e.g. two lines/circles/arcs "
+"or a line/circle/arc and a point)."
+msgstr ""
+
+#: modify.cpp:736
+msgid "Can't split; no intersection found."
+msgstr ""
+
+#: mouse.cpp:560
+msgid "Assign to Style"
+msgstr "Встановити Стиль"
+
+#: mouse.cpp:576
+msgid "No Style"
+msgstr "Без Стилю"
+
+#: mouse.cpp:579
+msgid "Newly Created Custom Style..."
+msgstr "Створити Користувацький Стиль..."
+
+#: mouse.cpp:586
+msgid "Group Info"
+msgstr "Параметри Групи"
+
+#: mouse.cpp:606
+msgid "Style Info"
+msgstr "Параметри Стилю"
+
+#: mouse.cpp:626
+msgid "Select Edge Chain"
+msgstr "Виділити Ланцюг Ребер"
+
+#: mouse.cpp:632
+msgid "Toggle Reference Dimension"
+msgstr "Перемкнути Відносність Розміру"
+
+#: mouse.cpp:638
+msgid "Other Supplementary Angle"
+msgstr "Інший Суміжний Кут"
+
+#: mouse.cpp:643
+msgid "Snap to Grid"
+msgstr "Прикріпити до Сітки"
+
+#: mouse.cpp:652
+msgid "Remove Spline Point"
+msgstr "Видалити Точку Сплайну"
+
+#: mouse.cpp:687
+msgid "Add Spline Point"
+msgstr "Додати Точку Сплайну"
+
+#: mouse.cpp:691
+msgid "Cannot add spline point: maximum number of points reached."
+msgstr ""
+
+#: mouse.cpp:716
+msgid "Toggle Construction"
+msgstr "Пермкнути Конструктивність"
+
+#: mouse.cpp:731
+msgid "Delete Point-Coincident Constraint"
+msgstr "Роз'єднати З'єднання Точок"
+
+#: mouse.cpp:750
+msgid "Cut"
+msgstr "Вирізати"
+
+#: mouse.cpp:752
+msgid "Copy"
+msgstr "Копіювати"
+
+#: mouse.cpp:756
+msgid "Select All"
+msgstr "Виділити Усе"
+
+#: mouse.cpp:761
+msgid "Paste"
+msgstr "Вставити"
+
+#: mouse.cpp:763
+msgid "Paste Transformed..."
+msgstr "Вставити Трансформованим..."
+
+#: mouse.cpp:768
+msgid "Delete"
+msgstr "Видалити"
+
+#: mouse.cpp:771
+msgid "Unselect All"
+msgstr "Зняти Виділення з Усього"
+
+#: mouse.cpp:778
+msgid "Unselect Hovered"
+msgstr "Зняти Виділення з Наведеного"
+
+#: mouse.cpp:787
+msgid "Zoom to Fit"
+msgstr "Умістити на Екрані"
+
+#: mouse.cpp:990 mouse.cpp:1277
+msgid "click next point of line, or press Esc"
+msgstr ""
+
+#: mouse.cpp:996
+msgid ""
+"Can't draw rectangle in 3d; first, activate a workplane with Sketch -> In "
+"Workplane."
+msgstr ""
+
+#: mouse.cpp:1030
+msgid "click to place other corner of rectangle"
+msgstr ""
+
+#: mouse.cpp:1050
+msgid "click to set radius"
+msgstr ""
+
+#: mouse.cpp:1055
+msgid ""
+"Can't draw arc in 3d; first, activate a workplane with Sketch -> In "
+"Workplane."
+msgstr ""
+
+#: mouse.cpp:1074
+msgid "click to place point"
+msgstr ""
+
+#: mouse.cpp:1090
+msgid "click next point of cubic, or press Esc"
+msgstr ""
+
+#: mouse.cpp:1095
+msgid ""
+"Sketching in a workplane already; sketch in 3d before creating new workplane."
+msgstr ""
+
+#: mouse.cpp:1111
+msgid ""
+"Can't draw text in 3d; first, activate a workplane with Sketch -> In "
+"Workplane."
+msgstr ""
+
+#: mouse.cpp:1128
+msgid "click to place bottom right of text"
+msgstr ""
+
+#: mouse.cpp:1134
+msgid ""
+"Can't draw image in 3d; first, activate a workplane with Sketch -> In "
+"Workplane."
+msgstr ""
+
+#: mouse.cpp:1161
+msgid "NEW COMMENT -- DOUBLE-CLICK TO EDIT"
+msgstr ""
+
+#: platform/gui.cpp:85
+msgctxt "file-type"
+msgid "SolveSpace models"
+msgstr ""
+
+#: platform/gui.cpp:89
+msgctxt "file-type"
+msgid "PNG image"
+msgstr ""
+
+#: platform/gui.cpp:93
+msgctxt "file-type"
+msgid "STL mesh"
+msgstr ""
+
+#: platform/gui.cpp:94
+msgctxt "file-type"
+msgid "Wavefront OBJ mesh"
+msgstr ""
+
+#: platform/gui.cpp:95
+msgctxt "file-type"
+msgid "Three.js-compatible mesh, with viewer"
+msgstr ""
+
+#: platform/gui.cpp:96
+msgctxt "file-type"
+msgid "Three.js-compatible mesh, mesh only"
+msgstr ""
+
+#: platform/gui.cpp:97
+msgctxt "file-type"
+msgid "Q3D Object file"
+msgstr ""
+
+#: platform/gui.cpp:98
+msgctxt "file-type"
+msgid "VRML text file"
+msgstr ""
+
+#: platform/gui.cpp:102 platform/gui.cpp:109 platform/gui.cpp:116
+msgctxt "file-type"
+msgid "STEP file"
+msgstr ""
+
+#: platform/gui.cpp:106
+msgctxt "file-type"
+msgid "PDF file"
+msgstr ""
+
+#: platform/gui.cpp:107
+msgctxt "file-type"
+msgid "Encapsulated PostScript"
+msgstr ""
+
+#: platform/gui.cpp:108
+msgctxt "file-type"
+msgid "Scalable Vector Graphics"
+msgstr ""
+
+#: platform/gui.cpp:110 platform/gui.cpp:117
+msgctxt "file-type"
+msgid "DXF file (AutoCAD 2007)"
+msgstr ""
+
+#: platform/gui.cpp:111
+msgctxt "file-type"
+msgid "HPGL file"
+msgstr ""
+
+#: platform/gui.cpp:112
+msgctxt "file-type"
+msgid "G Code"
+msgstr ""
+
+#: platform/gui.cpp:121
+msgctxt "file-type"
+msgid "AutoCAD DXF and DWG files"
+msgstr ""
+
+#: platform/gui.cpp:125
+msgctxt "file-type"
+msgid "Comma-separated values"
+msgstr ""
+
+#: platform/guigtk.cpp:1317 platform/guimac.mm:1347 platform/guiwin.cpp:1608
+msgid "untitled"
+msgstr ""
+
+#: platform/guigtk.cpp:1328 platform/guigtk.cpp:1361 platform/guimac.mm:1305
+#: platform/guiwin.cpp:1555
+msgctxt "title"
+msgid "Save File"
+msgstr ""
+
+#: platform/guigtk.cpp:1329 platform/guigtk.cpp:1362 platform/guimac.mm:1288
+#: platform/guiwin.cpp:1557
+msgctxt "title"
+msgid "Open File"
+msgstr ""
+
+#: platform/guigtk.cpp:1332 platform/guigtk.cpp:1368
+msgctxt "button"
+msgid "_Cancel"
+msgstr ""
+
+#: platform/guigtk.cpp:1333 platform/guigtk.cpp:1366
+msgctxt "button"
+msgid "_Save"
+msgstr ""
+
+#: platform/guigtk.cpp:1334 platform/guigtk.cpp:1367
+msgctxt "button"
+msgid "_Open"
+msgstr ""
+
+#: solvespace.cpp:557
+msgctxt "title"
+msgid "(new sketch)"
+msgstr ""
+
+#: solvespace.cpp:564
+msgctxt "title"
+msgid "Property Browser"
+msgstr ""
+
+#: style.cpp:166
+msgid ""
+"Can't assign style to an entity that's derived from another entity; try "
+"assigning a style to this entity's parent."
+msgstr ""
+
+#: style.cpp:665
+msgid "Style name cannot be empty"
+msgstr ""
+
+#: textscreens.cpp:741
+msgid "Can't repeat fewer than 1 time."
+msgstr ""
+
+#: textscreens.cpp:745
+msgid "Can't repeat more than 999 times."
+msgstr ""
+
+#: textscreens.cpp:770
+msgid "Group name cannot be empty"
+msgstr ""
+
+#: textscreens.cpp:813
+msgid "Opacity must be between zero and one."
+msgstr ""
+
+#: textscreens.cpp:848
+msgid "Radius cannot be zero or negative."
+msgstr ""
+
+#: toolbar.cpp:18
+msgid "Sketch line segment"
+msgstr "Накреслети відрізок прямої"
+
+#: toolbar.cpp:20
+msgid "Sketch rectangle"
+msgstr "Накреслити прямокутник"
+
+#: toolbar.cpp:22
+msgid "Sketch circle"
+msgstr "Накреслити коло"
+
+#: toolbar.cpp:24
+msgid "Sketch arc of a circle"
+msgstr "Накреслити дугу кола"
+
+#: toolbar.cpp:26
+msgid "Sketch curves from text in a TrueType font"
+msgstr "Накреслити криві з тексту на TrueType шрифті"
+
+#: toolbar.cpp:28
+msgid "Sketch image from a file"
+msgstr ""
+
+#: toolbar.cpp:30
+msgid "Create tangent arc at selected point"
+msgstr "Створити дотичну дугу у вибраній точці"
+
+#: toolbar.cpp:32
+msgid "Sketch cubic Bezier spline"
+msgstr "Накреслити кубічний сплайн Без'є"
+
+#: toolbar.cpp:34
+msgid "Sketch datum point"
+msgstr "Накреслити опорну точку"
+
+#: toolbar.cpp:36
+msgid "Toggle construction"
+msgstr "Перемкнути конструктивність"
+
+#: toolbar.cpp:38
+msgid "Split lines / curves where they intersect"
+msgstr "Розрізати лініх / криві в місцях перетину"
+
+#: toolbar.cpp:42
+msgid "Constrain distance / diameter / length"
+msgstr "Визначити відстань / діаметр / довжину"
+
+#: toolbar.cpp:44
+msgid "Constrain angle"
+msgstr "Визначити кут"
+
+#: toolbar.cpp:46
+msgid "Constrain to be horizontal"
+msgstr "Встановити горизонтально"
+
+#: toolbar.cpp:48
+msgid "Constrain to be vertical"
+msgstr "Встановити перпендикулярно"
+
+#: toolbar.cpp:50
+msgid "Constrain to be parallel or tangent"
+msgstr "Встановити паралельно або дотично"
+
+#: toolbar.cpp:52
+msgid "Constrain to be perpendicular"
+msgstr "Встановити перпендикулярно"
+
+#: toolbar.cpp:54
+msgid "Constrain point on line / curve / plane / point"
+msgstr "Прив'язати точку до лінії / кривої / площини / точки"
+
+#: toolbar.cpp:56
+msgid "Constrain symmetric"
+msgstr "Встановити симетрично"
+
+#: toolbar.cpp:58
+msgid "Constrain equal length / radius / angle"
+msgstr "Встановити однаковими відстань / радіус / кут"
+
+#: toolbar.cpp:60
+msgid "Constrain normals in same orientation"
+msgstr "Спрямувати нормалі в одному напрямку"
+
+#: toolbar.cpp:62
+msgid "Other supplementary angle"
+msgstr "Інший суміжний кут"
+
+#: toolbar.cpp:64
+msgid "Toggle reference dimension"
+msgstr "Перемкнути відносність розміру"
+
+#: toolbar.cpp:68
+msgid "New group extruding active sketch"
+msgstr "Нова група екструдування активного креслення"
+
+#: toolbar.cpp:70
+msgid "New group rotating active sketch"
+msgstr "Нова група обертання актиного креслення"
+
+#: toolbar.cpp:72
+msgid "New group step and repeat rotating"
+msgstr "Нова група крокування і повторення обертання"
+
+#: toolbar.cpp:74
+msgid "New group step and repeat translating"
+msgstr "Нова група крокування і повторення зміщення"
+
+#: toolbar.cpp:76
+msgid "New group in new workplane (thru given entities)"
+msgstr "Нова група в новій площині (через обрані об'екти)"
+
+#: toolbar.cpp:78
+msgid "New group in 3d"
+msgstr "Нова група в 3d"
+
+#: toolbar.cpp:80
+msgid "New group linking / assembling file"
+msgstr "Нова група приєднання / монтування файлу"
+
+#: toolbar.cpp:84
+msgid "Nearest isometric view"
+msgstr "Найближчий ізометричний вигляд"
+
+#: toolbar.cpp:86
+msgid "Align view to active workplane"
+msgstr "Вирівняти вигляд до активної робочої площини"
+
+#: util.cpp:165
+msgctxt "title"
+msgid "Error"
+msgstr ""
+
+#: util.cpp:165
+msgctxt "title"
+msgid "Message"
+msgstr ""
+
+#: util.cpp:170
+msgctxt "button"
+msgid "&OK"
+msgstr ""
+
+#: view.cpp:78
+msgid "Scale cannot be zero or negative."
+msgstr ""
+
+#: view.cpp:90 view.cpp:99
+msgid "Bad format: specify x, y, z"
+msgstr ""
+
+#~ msgid "Show Degrees of &Freedom"
+#~ msgstr "Показати Степені &Свободи"
+
+#~ msgid "Show Menu &Bar"
+#~ msgstr "Показати Панель &Меню"
